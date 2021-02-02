@@ -4,6 +4,11 @@ body{
     height: 100%;   
 }
 
+
+ul {
+    padding: 0px!important; 
+ }
+
 .menu-principal{
     width: 100%;
     background-color: #252323;
@@ -103,3 +108,66 @@ main{
     border-radius: 8px;  
 }
 
+/* Video 5 - ajustes da seta para trocar os sliders*/
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../img/seta-prev.png);
+    top: 35%;
+    left: 20%;
+}
+/* Video 5 - ajustes da seta para trocar os sliders*/
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../img/seta-next.png);
+    top: 35%;
+    right: 20%;
+}
+
+/* Video 5 - Criado os Dots dos sliders*/
+.slick-list {
+    width: 100%!important;
+}
+
+.slick-initialized {
+    overflow: hidden;
+}
+
+.slick-dots li button {
+    font-size: 0px;
+    border: 5px solid #ffffff;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 600px;
+}
+
+li.slick-active button {
+    background: #00bac6;
+}
+
+.slick-dots li {
+    padding-left: 10px;
+    display: inline-block;
+}

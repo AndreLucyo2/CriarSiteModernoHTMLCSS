@@ -1,6 +1,14 @@
 /*
  opção sigle item
  ver http://kenwheeler.github.io/slick/ 
- Video 4 - 19:55 (https://www.youtube.com/watch?v=IA_fwt152AI&list=PL4iwH9RF8xHmjxVNJcyNSkVDYNUo6r2BM&index=4)
+ Video 5 - (https://youtu.be/7trN5ty3_Jg?list=PL4iwH9RF8xHmjxVNJcyNSkVDYNUo6r2BM)
 */
-$('.slider-principal').slick();
+$('.slider-principal').slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    adaptiveHeight: true,
+    autoplay: true,
+    autoplaySpeed: 2000
+});
