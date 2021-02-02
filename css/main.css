@@ -15,34 +15,51 @@ main{
     width: 980px; 
     position: relative;
 }
+
 .logo{
     float: left;
-    padding: 16px;
+    padding: 17px;
     /* width: 65%; */
 }
 
 .redes-sociais{
     /* width: 30%; */
-    padding: 16px;
+    padding: 15px;
     float: right;
+    height: 30px;
 }
 
-.redes-sociais ul li {    
+.redes-sociais ul li { 
+    margin-left: 10px;   
     display: inline-block;
-    list-style: none;
-    margin-left: 10px;
+    list-style: none;    
    
 }
+
+.col-100{
+    width: 100%;
+    float: left;
+    position: relative;
+    /* background-color: red; */
+}
+
+.menu-urls{
+    height: 60px;
+    border-bottom: 5px solid #efefef;     
+}
+
 .header-2{
     background-color: #ffffff;
-    width: 100%;
-    border: 3px solid #efefef;
+    width: 980px;
+    margin: 0 auto; 
+   
 }
 
 .menu ul li {
     display: inline-block;
     color: #8b8b8b;
     margin-left: 15px;
+    height: 15px;
 }
 
 .menu ul li a {
@@ -54,11 +71,26 @@ main{
 }
 
 .menu{
-    /* width: 70%; */
+    width: 70%;
+    margin-top: 20px;
     float: left;
 }
 
 .busca{
-    /* width: 30%; */
-    float: right;
+    text-align: center;
+    height: 30%;
+    margin-top: 8px;
+    float: right;    
 }
+
+.busca input{
+    background-image: url(../img/lupa.png);
+    background-repeat: no-repeat;
+    background-position: 96%;
+    height: 20px;
+    padding: 10px;
+    width: 190px;    
+    border: 1px solid #d6d6d6;  
+    border-radius: 8px;  
+}
+
