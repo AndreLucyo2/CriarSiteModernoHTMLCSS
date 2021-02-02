@@ -32,8 +32,7 @@ main{
 .redes-sociais ul li { 
     margin-left: 10px;   
     display: inline-block;
-    list-style: none;    
-   
+    list-style: none;
 }
 
 .col-100{
@@ -51,23 +50,32 @@ main{
 .header-2{
     background-color: #ffffff;
     width: 980px;
-    margin: 0 auto; 
-   
+    margin: 0 auto;    
 }
 
 .menu ul li {
     display: inline-block;
     color: #8b8b8b;
     margin-left: 15px;
-    height: 15px;
+    height: 42px;
 }
 
 .menu ul li a {
     color: #8b8b8b;
     text-decoration: none ;
     font-size: 18px;
-    text-transform: uppercase;
-   
+    text-transform: uppercase;   
+
+}
+
+/*Efeito de cor ao passar o mouse no menu*/
+.menu ul li:hover {
+    border-bottom: 3px solid #00bac6;
+}
+
+/*Efeito de cor ao passar o mouse no menu*/
+.menu ul li a:hover {
+    color: #00bac6;    
 }
 
 .menu{
@@ -83,6 +91,7 @@ main{
     float: right;    
 }
 
+/*Formatando a caixa de texto*/
 .busca input{
     background-image: url(../img/lupa.png);
     background-repeat: no-repeat;
